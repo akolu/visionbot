@@ -1,0 +1,20 @@
+{
+  "name": "visionbot",
+  "version": "0.1.0",
+  "description": "IRC bot for analysing images and detecting nsfw content via google vision API",
+  "main": "index.js",
+  "scripts": {
+    "gulp": "/usr/bin/nodejs ./node_modules/gulp/bin/gulp.js"
+  },
+  "author": "Aku Kolu",
+  "license": "ISC",
+  "dependencies": {
+    "bluebird": "^3.3.3",
+    "gulp": "^3.9.1",
+    "gulp-babel": "^6.1.2",
+    "gulp-traceur": "^0.17.2",
+    "irc": "^0.4.1",
+    "request": "^2.69.0",
+    "request-image-size": "^1.2.2"
+  }
+}
